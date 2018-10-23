@@ -185,6 +185,7 @@ $(document).ready(function() {
         $("#keyI").on("touchstart", function(e) { $.tap(e, "I") });
         $("#keyO").on("touchstart", function(e) { $.tap(e, "O") });
         $("#keyP").on("touchstart", function(e) { $.tap(e, "P") });
+        $("#keyZ").on("touchstart", function(e) { $.tap(e, "Z") });
         $("#meow").css("visibility", "visible").on("touchstart", function(e) { $.tap(e, " ") });
     }
 });
