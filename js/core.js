@@ -92,7 +92,7 @@ $(document).ready(function() {
     lowLag.load(['marimba8.mp3','marimba8.wav'],'marimba8');
     lowLag.load(['marimba9.mp3','marimba9.wav'],'marimba9');
     lowLag.load(['marimba0.mp3','marimba0.wav'],'marimba0');
-    lowLag.load(['guitar1.mp3','guitar1.wav'],'guitar1');
+    lowLag.load(['guitar1.mp3','marimba0.wav'],'guitar1');
 });
 Array.prototype.remove = function(el) {
     return this.splice(this.indexOf(el), 1);
