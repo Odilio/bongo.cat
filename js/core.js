@@ -103,7 +103,7 @@ $.wait = function(callback, ms) {
 $.play = function(instrument, key, state) {
     var instrumentName = Object.keys(InstrumentEnum).find(k => InstrumentEnum[k] === instrument).toLowerCase();
     var commonKey = KeyEnum[key];
-    var paw = (instrument == InstrumentEnum.BONGO ? key : key <= 5 && key != 0 ? 0 : 1);
+    var paw = (instrument == InstrumentEnum.BONGO ? key : key <= 6 && key != 0 ? 0 : 1);
     var id = (instrument == InstrumentEnum.MEOW ? "#mouth" : '#' + (paw == 0 ? "l" : "r") + 'paw');
     if (state == true) {
         if (jQuery.inArray(commonKey, pressed) !== -1) {
