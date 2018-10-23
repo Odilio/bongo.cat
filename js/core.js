@@ -27,7 +27,7 @@ var KeyEnum = {
     "R" : 4,
     "T" : 5,
     "Y" : 6, //US
-    "Z" : 6, //Germany
+    "Z" : 1, //Germany
     "U" : 7,
     "I" : 8,
     "O" : 9,
