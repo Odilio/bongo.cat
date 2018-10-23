@@ -3,7 +3,8 @@ var InstrumentEnum = {
     KEYBOARD : 1,
     MEOW: 3,
     CYMBAL: 4,
-    MARIMBA: 5
+    MARIMBA: 5,
+    GUITAR: 6
 }
 var KeyEnum = {
     "A" : 1,
@@ -53,11 +54,11 @@ var InstrumentPerKeyEnum = {
     "R" : InstrumentEnum.MARIMBA,
     "T" : InstrumentEnum.MARIMBA,
     "Y" : InstrumentEnum.MARIMBA, //US
-    "Z" : InstrumentEnum.MARIMBA, //Germany
     "U" : InstrumentEnum.MARIMBA,
     "I" : InstrumentEnum.MARIMBA,
     "O" : InstrumentEnum.MARIMBA,
-    "P" : InstrumentEnum.MARIMBA
+    "P" : InstrumentEnum.MARIMBA,
+    "Z" : InstrumentEnum.GUITAR, //Germany
 }
 var ClickKeyEquivalentEnum = {
     "1" : "A",
@@ -91,6 +92,7 @@ $(document).ready(function() {
     lowLag.load(['marimba8.mp3','marimba8.wav'],'marimba8');
     lowLag.load(['marimba9.mp3','marimba9.wav'],'marimba9');
     lowLag.load(['marimba0.mp3','marimba0.wav'],'marimba0');
+    lowLag.load(['guitar1.mp3','guitar1.wav'],'guitar1');
 });
 Array.prototype.remove = function(el) {
     return this.splice(this.indexOf(el), 1);
